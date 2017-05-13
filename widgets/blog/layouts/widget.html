@@ -1,0 +1,4 @@
+{{ $paginator := .Context.Page.Paginate (where .Context.Data.Pages "Type" "post") }}
+{{ range $paginator.Pages }}
+  {{ .Render "summary" }}
+{{ end }}

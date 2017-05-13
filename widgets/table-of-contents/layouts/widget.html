@@ -1,0 +1,6 @@
+{{ if and .Context.IsPage (eq .Context.Params.toc true) }}
+<div class="section">
+  <header><div class="title">Table Of Contents</div></header>
+  <div class="list-default">{{ .Context.TableOfContents }}</div>
+</div>
+{{ end }}

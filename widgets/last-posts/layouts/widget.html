@@ -1,0 +1,11 @@
+<h1>{{ i18n "latestposts" }}</h1>
+  <div class="content">
+    <ul>
+      {{- range first 10 (where .Context.Site.Pages "Type" "post") }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{- end }}
+    </ul>
+  </div>
+</div>

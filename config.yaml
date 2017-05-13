@@ -1,0 +1,129 @@
+baseurl: http://www.adrien-poupin.fr
+name: 'Adrien Poupin – Ténor'
+description: 'Artiste lyrique'
+MetaDataFormat: "yaml"
+Copyright: "Adrien Poupin — 2017"
+DefaultContentLanguage: fr
+#SectionPagesMenu: "main" # for lazy bloggers
+
+# Show a placeholder instead of the default value or an empty string if a translation is missing
+enableMissingTranslationPlaceholders: true
+
+
+theme: hugo-bootstrap-premium
+
+# Paramètres
+#permalinks:
+#    post: "/:year/:month/:day/:slug/"
+#    code: "/:slug/"
+
+taxonomies:
+    tag: "tags"
+    topic: "sujets"
+
+author:
+    name: "Adrien Poupin"
+    email: "contact@adrien-poupin.fr"
+
+menu: "main"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+params:
+    # You can use markdown here.
+    brand: "Adrien Poupin"
+    #BrandImage: "http://blog.appernetic.io/images/apperneticlogo.png" #top header brand image.
+    topline: "few words about your site"
+    footline: "Hugo — code with <i class='fa fa-heart'></i>"
+
+    # Show a sidebar menu
+    showRightSidebar: true
+
+    showBlogHeader: false
+
+    # bootswatch theme name, unmark and select one: cerulean, cosmo, cyborg, darkly,
+    # default, flatly, journal,  lumen, paper, readable, sandstone, simplex,
+    # slate, spacelab, superhero, united, yeti.
+
+    theme:
+      name: "sandstone"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight: "default"
+
+
+blackfriday:
+    angledQuotes: true
+    fractions: false
+    hrefTargetBlank: false
+    latexDashes: true
+    plainIdAnchors: true
+    extensions: []
+    extensionmask: []
+
+# Widgets
+widgets:
+  main-menu:
+    - type: menu
+      options:
+        id: main
+  homepage:
+    - type: blog
+      options:
+  sidebar:
+    - type: table-of-contents
+    - type: last-posts
+    - type: text
+      options:
+        Content: '<div class="vcard"><img class="photo" src="http://www.adrien-poupin.fr/wp-content/uploads/2013/07/C40-150x150.jpg" height="50" /><a class="url fn organization " href="http://www.adrien-poupin.fr">Adrien Poupin</a> est un <span class="title">artiste lyrique</span>. Il donne également des <a href="/cours" class="hproduct fn">cours de chant</a> à <span class="adr locality">Versailles</span>.
+<span class="value-email" email="mailto:contact@adrien-poupin.fr" />
+</div>'
+    - type: menu
+      options:
+        id: "main"
+  footer:
+    - type: text
+      options:
+        Content: "Powered by a widgetized <a href='http://github.com/lebarde/hugo'>Hugo</a>."
+
+# Menus
+menu:
+  main0: #Pour désactiver ce menu
+    - Name: Accueil
+      Title: Adrien Poupin - Ténor
+      URL: /
+      Weight: 10
+    - Name: "Biographie"
+      URL: "/biographie"
+      Identifier: "biographie"
+      Weight: 20
+    - Name: "Images"
+      URL: "/images"
+      Weight: 25
+    - Name: "Cours de chant"
+      Identifier: cours
+      Title: "Enseignement de la technique vocale lyrique (chant lyrique)"
+      URL: "/enseignement-de-technique-vocale/"
+      Weight: 30
+    - Name: "Versailles -- Tarifs et présentation"
+      Parent: cours
+      Title: "Présentation des cours de chant que donne Adrien Poupin à Versailles et dans les environs de Paris"
+      URL: "/enseignement-de-technique-vocale/cours-de-chant-a-versailles"
+    - Name: "Comment travailler le chant ?"
+      Parent: cours
+      URL: "/enseignement-de-technique-vocale/technique-vocale-comment-travailler-le-chant/"
+    - Name: "Entraînement vocal"
+      Parent: cours
+      Title: "Entraînement vocal"
+      URL: "/enseignement-de-technique-vocale/entrainement-vocal"
+    - Name: "Articles"
+      Weight: 40
+      Title: "Articles"
+      URL: "/articles"
+    - Name: "Contact"
+      Weight: 50
+      Title: "Contactez Adrien Poupin"
+      URL: "/contact"
+
