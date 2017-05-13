@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.adrien-poupin.fr/biographie/</loc>
+    <lastmod>2017-05-09T21:58:37+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.adrien-poupin.fr/</loc>
     <lastmod>2017-05-08T23:32:37+02:00</lastmod>
   </url>
@@ -35,6 +40,11 @@
   <url>
     <loc>http://www.adrien-poupin.fr/composition/licence/</loc>
     <lastmod>2014-03-15T18:30:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.adrien-poupin.fr/images/</loc>
+    <lastmod>2014-01-14T09:06:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,12 +98,25 @@
   </url>
   
   <url>
+    <loc>http://www.adrien-poupin.fr/tags/one/</loc>
+    <lastmod>2017-05-09T21:58:37+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.adrien-poupin.fr/sujets/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.adrien-poupin.fr/tags/</loc>
+    <lastmod>2017-05-09T21:58:37+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.adrien-poupin.fr/tags/two/</loc>
+    <lastmod>2017-05-09T21:58:37+02:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -3,7 +3,6 @@ title: Contact
 author: admin
 type: page
 date: 2012-06-08T16:39:13+00:00
-menu: main
 
 ---
 

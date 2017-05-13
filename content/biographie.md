@@ -13,7 +13,6 @@ title: Adrien Poupin — Ténor
 topics:
 - topic 1
 type: page
-menu: main
 toc: true
 ---
 

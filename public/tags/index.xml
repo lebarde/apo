@@ -8,9 +8,28 @@
     <managingEditor>contact@adrien-poupin.fr (Adrien Poupin)</managingEditor>
     <webMaster>contact@adrien-poupin.fr (Adrien Poupin)</webMaster>
     <copyright>Adrien Poupin — 2017</copyright>
+    <lastBuildDate>Tue, 09 May 2017 21:58:37 +0200</lastBuildDate>
     
 	<atom:link href="http://www.adrien-poupin.fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>One</title>
+      <link>http://www.adrien-poupin.fr/tags/one/</link>
+      <pubDate>Tue, 09 May 2017 21:58:37 +0200</pubDate>
+      <author>contact@adrien-poupin.fr (Adrien Poupin)</author>
+      <guid>http://www.adrien-poupin.fr/tags/one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two</title>
+      <link>http://www.adrien-poupin.fr/tags/two/</link>
+      <pubDate>Tue, 09 May 2017 21:58:37 +0200</pubDate>
+      <author>contact@adrien-poupin.fr (Adrien Poupin)</author>
+      <guid>http://www.adrien-poupin.fr/tags/two/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

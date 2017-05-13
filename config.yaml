@@ -90,7 +90,7 @@ widgets:
 
 # Menus
 menu:
-  main0: #Pour désactiver ce menu
+  main: 
     - Name: Accueil
       Title: Adrien Poupin - Ténor
       URL: /

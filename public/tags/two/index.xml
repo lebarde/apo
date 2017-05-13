@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Two on </title>
+    <link>http://www.adrien-poupin.fr/tags/two/</link>
+    <description>Recent content in Two on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>contact@adrien-poupin.fr (Adrien Poupin)</managingEditor>
+    <webMaster>contact@adrien-poupin.fr (Adrien Poupin)</webMaster>
+    <copyright>Adrien Poupin — 2017</copyright>
+    <lastBuildDate>Tue, 09 May 2017 21:58:37 +0200</lastBuildDate>
+    
+	<atom:link href="http://www.adrien-poupin.fr/tags/two/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Adrien Poupin — Ténor</title>
+      <link>http://www.adrien-poupin.fr/biographie/</link>
+      <pubDate>Tue, 09 May 2017 21:58:37 +0200</pubDate>
+      <author>contact@adrien-poupin.fr (Adrien Poupin)</author>
+      <guid>http://www.adrien-poupin.fr/biographie/</guid>
+      <description>Adrien Poupin débute ses études de chant par la musique ancienne au conservatoire de Toulouse, puis au Centre de Musique Baroque de Versailles. Après cela, il perfectionne sa voix au conservatoire de Versailles avec Gaël de Kerret. Il y découvre une voix de baryton aigü et y obtient le Diplôme d’Études Musicales (DEM) en chant lyrique. Parallèlement, il y prend des cours de direction, d’écriture et de composition.
+Après la fin de son cursus au conservatoire en septembre 2015, sa voix s’est entraînée et il gagne la quinte aiguë qui lui permet d’envisager la tessiture de ténor.</description>
+    </item>
+    
+  </channel>
+</rss>
